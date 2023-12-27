@@ -17,8 +17,6 @@ const TasksPage: React.FC = () => {
             task.info.includes(searchname)
           ) {
             return task;
-          } else {
-            return task;
           }
         })
         .map((el) => {
