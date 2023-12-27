@@ -3,10 +3,9 @@ import style from "./style.module.css";
 import Task from "../task/Task";
 import AddTask from "./addTask/AddTask";
 import { MenuCtrx } from "../store/menuStore";
-import PopUp from "../popUp/PopUp";
 
 const TasksPage: React.FC = () => {
-  const { tasks, searchname, choosedPopUp } = useContext(MenuCtrx);
+  const { tasks, searchname } = useContext(MenuCtrx);
 
   return (
     <section className={style.taskPage}>
@@ -17,6 +16,8 @@ const TasksPage: React.FC = () => {
             task.title.includes(searchname) ||
             task.info.includes(searchname)
           ) {
+            return task;
+          } else {
             return task;
           }
         })

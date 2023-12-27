@@ -22,9 +22,6 @@ function App() {
     } catch (error) {
       console.error("Invalid data format:", error);
     }
-
-    if (storedTasks) {
-    }
   }, []);
 
   return (
