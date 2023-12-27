@@ -1,0 +1,120 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-radius: 20px;
+  background: rgba(144, 138, 138, 0.5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popUp {
+  width: 335px;
+  border-radius: 12px;
+  background: #f6faff;
+  box-shadow: 0px 2px 8px 0px rgba(106, 108, 224, 0.26);
+  padding: 12px;
+  position: relative;
+}
+.close {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  cursor: pointer;
+}
+.title {
+  text-align: center;
+  margin-bottom: 9px;
+}
+.title h2 {
+  color: #30507d;
+  font-family: poppinsBold;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/*  input */
+
+.inputContainer {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.inputLabel {
+  position: absolute;
+  left: 7px;
+  top: 7px;
+  color: #b0b0b0;
+  font-family: poppinsRegular;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transition: font-size 0.2s, top 0.2s;
+}
+
+.focused .inputLabel {
+  color: #b0b0b0;
+  font-family: poppinsSemiBold;
+  font-size: 6px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  top: 4px;
+  left: 8px;
+}
+
+.inputContainer input {
+  width: 100%;
+  padding: 10px;
+  font-size: 12px;
+  outline: none;
+  transition: border-color 0.2s;
+  height: 29px;
+  border-radius: 6px;
+  border: 1px solid #6a6ce0;
+  opacity: 0.7;
+  background: #fffefc;
+  color: #6c86a8;
+}
+
+.focused input {
+  border-color: #007bff;
+}
+
+/* textField */
+
+.textfieldInput {
+}
+
+.textfieldInput input {
+  color: #6c86a8;
+  font-family: poppinsSemiBold;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  height: 99px;
+  padding: 19px 0px 65px 12px;
+  background: #e8f1fd;
+  box-shadow: 1px 1px 4px 0px rgba(48, 80, 125, 0.25) inset;
+  border-radius: 0%;
+  opacity: 1;
+  border: none;
+}
+
+.textfieldInput input::placeholder {
+  color: #6c86a8;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.textfieldInput label {
+  display: none;
+}

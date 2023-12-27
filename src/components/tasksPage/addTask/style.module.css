@@ -1,0 +1,15 @@
+.addBtn {
+  position: fixed;
+  border-radius: 45.217px;
+  background: #6a6ce0;
+  padding: 18.087px;
+  box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.11);
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: calc(50% - 26px);
+  bottom: 14px;
+  cursor: pointer;
+}

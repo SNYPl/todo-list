@@ -1,0 +1,47 @@
+.dashboard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.dashboardMenu {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+
+.menuBtn p {
+  color: #30507d;
+  font-family: poppinsMedium;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+}
+
+.menuBtn img {
+  cursor: pointer;
+  background: #d8d8d8;
+  border-radius: 8px;
+}
+
+.menuBtn .activeBtnColor {
+  background: #6a6ce0;
+}
+
+.clearBtn {
+  align-self: flex-end;
+}
+
+.clearBtn p {
+  color: #30507d;
+  font-family: poppinsMedium;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: underline;
+  cursor: pointer;
+}

@@ -1,0 +1,18 @@
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.profileInfo {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.profileInfo h2 {
+  font-family: poppinsBold;
+  line-height: 24px;
+  font-size: 16px;
+  color: #545871;
+  font-weight: 700;
+}

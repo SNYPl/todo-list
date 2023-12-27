@@ -1,0 +1,23 @@
+.button {
+}
+
+.button button {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  background: #6a6ce0;
+  color: #fffefc;
+  font-family: poppinsRegular;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  outline: none;
+  border: none;
+  padding: 8px 40px;
+  cursor: pointer;
+}
+
+.button button:hover {
+  background: #6264de;
+}
